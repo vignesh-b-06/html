@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+html {
+  font-size: 16px;
+}
+
+.parent {
+  font-size: 20px;
+}
+.em {
+  font-size: 2em;   
+}
+
+.rem {
+  font-size: 2rem;  
+}
+
+
+.box {
+  min-height: 100px;
+  max-height: 200px;
+  background: lightgray;
+ 
+}
+
+.box2 {
+  height: 100px;
+  background: lightblue;
+}
+
+@media (min-width: 600px) {
+  .box2 {
+    background: lightgreen;
+  }
+  .box{
+    background: yellow;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="parent">
+  <p class="em">Doctor strange</p>
+  <p class="rem">Doctor doom</p>
+</div>
+
+
+<div class="box">
+  
+  Ant Man
+</div>
+
+
+<div class="box2"> spiderman</div>
+
+</body>
+</html>
