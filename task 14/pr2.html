@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.para1{
+            color:blue;
+        }
+        p#para1{
+            color:blueviolet;
+        }
+        #para1 p{
+            color:green;
+        }
+        div span{
+            background-color:yellow;
+        }
+        div > span{
+            border:2px solid black;
+            
+        }
+        #imp p{
+            background-color: blue !important;
+        }
+        .ab::before{
+            content:"hello";
+            color:aqua;
+        }
+        .ab::after{
+            content:"bye";
+            color:aqua;
+        }
+        a:link{
+            color:lawngreen;
+
+        }
+        a:visited{
+            color:red;
+        }
+        a:hover{
+            color:lightpink;
+        }
+        a:active{
+            color:lightgray;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <p class="para1"> Hello everyone</p>
+    <p id="para1">I am vicky</p>
+    <div id ="para1">
+        <p>I am an Engineering student</p>
+    </div>
+    <div>
+        <span>I like to play sports</span>
+        <p>
+            <span> I play cricket ,football and basketball</span>
+        </p>
+    </div>
+    <div id="imp">
+        <p style="background-color: red;">This is important</p>
+    </div>
+    <p class="ab"> this is before and after</p>
+        
+    <a href="https://picsum.photos/150/150"> Click this link</a>
+
+</body>
+</html>
